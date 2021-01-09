@@ -1,0 +1,72 @@
+/** @format */
+
+@for $i from 1 through 100 {
+  .k-p-#{$i} {
+    padding: ($i) * 1px !important;
+  }
+
+  .k-pt-#{$i} {
+    padding-top: ($i) * 1px !important;
+  }
+
+  .k-pb-#{$i} {
+    padding-bottom: ($i) * 1px;
+  }
+
+  .k-pl-#{$i} {
+    padding-left: ($i) * 1px;
+  }
+
+  .k-pr-#{$i} {
+    padding-right: ($i) * 1px;
+  }
+
+  .k-m-#{$i} {
+    margin: ($i) * 1px !important;
+  }
+
+  .k-mt-#{$i} {
+    margin-top: ($i) * 1px !important;
+  }
+
+  .k-mb-#{$i} {
+    margin-bottom: ($i) * 1px;
+  }
+
+  .k-ml-#{$i} {
+    margin-left: ($i) * 1px;
+  }
+
+  .k-mr-#{$i} {
+    margin-right: ($i) * 1px;
+  }
+
+  .k-h-#{$i} {
+    height: ($i) * 2px;
+  }
+
+  .k-w-#{$i} {
+    width: ($i) * 2px;
+  }
+
+  .k-w-max#{$i} {
+    width: ($i) * 10px;
+  }
+
+  .k-font-#{$i} {
+    font-size: ($i) * 1px;
+  }
+  .k-font-weight-#{$i} {
+    font-weight: ($i) * 100px;
+  }
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light {
+  color: white;
+}
